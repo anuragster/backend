@@ -1,0 +1,818 @@
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+1467974882082 - Sending location update request - lat - 12.8664268 and lng - 77.6513241 and accuracy - 20.0
+[0mPOST /partner/location/ [32m200 [0m21.138 ms - -[0m
+1467974895111 - Sending location update request - lat - 12.866322034671146 and lng - 77.65134953183278 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m1.701 ms - -[0m
+1467974896003 - Sending location update request - lat - 12.866056152338716 and lng - 77.65128143131427 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m0.897 ms - -[0m
+1467974900027 - Sending location update request - lat - 12.865772783896858 and lng - 77.65124074947738 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m0.888 ms - -[0m
+1467974901790 - Sending location update request - lat - 12.8663751 and lng - 77.6513149 and accuracy - 25.0
+[0mPOST /partner/location/ [32m200 [0m0.545 ms - -[0m
+1467974902070 - Sending location update request - lat - 12.865862348114543 and lng - 77.6512049331337 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m0.521 ms - -[0m
+1467974904095 - Sending location update request - lat - 12.86572160803862 and lng - 77.65112003804413 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m1.416 ms - -[0m
+1467974906076 - Sending location update request - lat - 12.865697295146823 and lng - 77.65109568677639 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m2.234 ms - -[0m
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+2016-07-08 10:51:48 - Sending location update request - lat - 12.8663924 and lng - 77.651327 and accuracy - 24.0
+[0mPOST /partner/location/ [32m200 [0m21.402 ms - -[0m
+2016-07-08 10:52:00 - Sending location update request - lat - 12.8663599 and lng - 77.6513399 and accuracy - 29.0
+[0mPOST /partner/location/ [32m200 [0m1.788 ms - -[0m
+2016-07-08 10:52:22 - Sending location update request - lat - 12.8664002 and lng - 77.6513233 and accuracy - 25.0
+[0mPOST /partner/location/ [32m200 [0m0.694 ms - -[0m
+2016-07-08 10:52:42 - Sending location update request - lat - 12.8664004 and lng - 77.6513359 and accuracy - 27.0
+[0mPOST /partner/location/ [32m200 [0m0.604 ms - -[0m
+2016-07-08 10:53:22 - Sending location update request - lat - 12.866402 and lng - 77.6513676 and accuracy - 30.0
+[0mPOST /partner/location/ [32m200 [0m0.498 ms - -[0m
+2016-07-08 10:56:50 - Sending location update request - lat - 12.8663594 and lng - 77.6513531 and accuracy - 35.07
+[0mPOST /partner/location/ [32m200 [0m0.533 ms - -[0m
+2016-07-08 11:03:38 - Sending location update request - lat - 12.8664066 and lng - 77.6513542 and accuracy - 31.0
+[0mPOST /partner/location/ [32m200 [0m1.310 ms - -[0m
+2016-07-08 11:04:25 - Sending location update request - lat - 12.8663593 and lng - 77.6513194 and accuracy - 24.618
+[0mPOST /partner/location/ [32m200 [0m0.418 ms - -[0m
+2016-07-08 11:04:46 - Sending location update request - lat - 12.8663679 and lng - 77.6513268 and accuracy - 24.0
+[0mPOST /partner/location/ [32m200 [0m0.415 ms - -[0m
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+module.js:327
+    throw err;
+    ^
+
+Error: Cannot find module '../model/partnerSchema'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/home/ec2-user/parking/rest/rest-server/routes/location.js:2:21)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+
+npm ERR! Linux 4.4.8-20.46.amzn1.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v4.4.6
+npm ERR! npm  v3.10.2
+npm ERR! code ELIFECYCLE
+npm ERR! rest-server@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the rest-server@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the rest-server package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs rest-server
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls rest-server
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ec2-user/parking/rest/rest-server/npm-debug.log
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+module.js:327
+    throw err;
+    ^
+
+Error: Cannot find module 'mongoose'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/home/ec2-user/parking/rest/rest-server/models/partnerSchema.js:1:78)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+
+npm ERR! Linux 4.4.8-20.46.amzn1.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v4.4.6
+npm ERR! npm  v3.10.2
+npm ERR! code ELIFECYCLE
+npm ERR! rest-server@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the rest-server@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the rest-server package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs rest-server
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls rest-server
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ec2-user/parking/rest/rest-server/npm-debug.log
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+2016-07-08 15:12:07 - Sending location update request - lat - 12.8663686 and lng - 77.6513336 and accuracy - 30.0
+[0mPOST /partner/location/ [32m200 [0m31.773 ms - 4[0m
+2016-07-08 15:12:26 - Sending location update request - lat - 12.8663721 and lng - 77.6513462 and accuracy - 28.0
+[0mPOST /partner/location/ [32m200 [0m3.680 ms - 4[0m
+2016-07-08 15:12:46 - Sending location update request - lat - 12.8663754 and lng - 77.6513728 and accuracy - 33.65
+[0mPOST /partner/location/ [32m200 [0m1.884 ms - 4[0m
+2016-07-08 15:12:51 - Sending location update request - lat - 12.86579566703531 and lng - 77.6511822827075 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m1.679 ms - 4[0m
+2016-07-08 15:12:52 - Sending location update request - lat - 12.865737610767018 and lng - 77.65117474949852 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m1.516 ms - 4[0m
+2016-07-08 15:12:56 - Sending location update request - lat - 12.865836192074742 and lng - 77.65120501822994 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m2.674 ms - 4[0m
+2016-07-08 15:12:57 - Sending location update request - lat - 12.865817093324756 and lng - 77.65120914777879 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m5.112 ms - 4[0m
+2016-07-08 15:13:00 - Sending location update request - lat - 12.865750873395246 and lng - 77.65121769905949 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m1.358 ms - 4[0m
+2016-07-08 15:13:03 - Sending location update request - lat - 12.865739892605083 and lng - 77.65119522404825 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m1.306 ms - 4[0m
+2016-07-08 15:13:04 - Sending location update request - lat - 12.865860223299588 and lng - 77.6511996140532 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m1.289 ms - 4[0m
+2016-07-08 15:13:05 - Sending location update request - lat - 12.865894636777965 and lng - 77.6511950092167 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m2.942 ms - 4[0m
+2016-07-08 15:13:06 - Sending location update request - lat - 12.8663793 and lng - 77.6513152 and accuracy - 23.446
+[0mPOST /partner/location/ [32m200 [0m1.769 ms - 4[0m
+2016-07-08 15:13:06 - Sending location update request - lat - 12.865992979515319 and lng - 77.65121370638067 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m1.264 ms - 4[0m
+2016-07-08 15:13:07 - Sending location update request - lat - 12.866061815026073 and lng - 77.65123905804018 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m2.219 ms - 4[0m
+2016-07-08 15:13:08 - Sending location update request - lat - 12.86613573052024 and lng - 77.6512590905692 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m1.702 ms - 4[0m
+2016-07-08 15:13:11 - Sending location update request - lat - 12.866212991907908 and lng - 77.65127846823346 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m2.355 ms - 4[0m
+2016-07-08 15:13:12 - Sending location update request - lat - 12.86625415230807 and lng - 77.65126664853226 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m1.327 ms - 4[0m
+2016-07-08 15:13:13 - Sending location update request - lat - 12.866270960765503 and lng - 77.65127367935551 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m1.368 ms - 4[0m
+2016-07-08 15:13:15 - Sending location update request - lat - 12.866244358794356 and lng - 77.6512861143666 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m1.713 ms - 4[0m
+2016-07-08 15:13:17 - Sending location update request - lat - 12.866242006630765 and lng - 77.65129894266826 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m2.116 ms - 4[0m
+2016-07-08 15:13:18 - Sending location update request - lat - 12.866236414587501 and lng - 77.65130153992529 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m1.296 ms - 4[0m
+2016-07-08 15:13:19 - Sending location update request - lat - 12.866229730373895 and lng - 77.65130343644604 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m1.493 ms - 4[0m
+2016-07-08 15:13:20 - Sending location update request - lat - 12.866199169206274 and lng - 77.651302356492 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m1.220 ms - 4[0m
+2016-07-08 15:13:24 - Sending location update request - lat - 12.866193129314132 and lng - 77.65131835666664 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.226 ms - 4[0m
+2016-07-08 15:13:25 - Sending location update request - lat - 12.866202688395523 and lng - 77.65132464505994 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m1.332 ms - 4[0m
+2016-07-08 15:13:26 - Sending location update request - lat - 12.8663698 and lng - 77.6513631 and accuracy - 34.383
+[0mPOST /partner/location/ [32m200 [0m1.738 ms - 4[0m
+2016-07-08 15:13:37 - Sending location update request - lat - 12.866427433187466 and lng - 77.65158684153054 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m3.309 ms - 4[0m
+2016-07-08 15:13:38 - Sending location update request - lat - 12.866306014330625 and lng - 77.65142690753392 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.599 ms - 4[0m
+2016-07-08 15:13:39 - Sending location update request - lat - 12.866302647951905 and lng - 77.65142705866401 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m4.392 ms - 4[0m
+2016-07-08 15:13:40 - Sending location update request - lat - 12.866302647951905 and lng - 77.65142705866401 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m1.416 ms - 4[0m
+2016-07-08 15:13:41 - Sending location update request - lat - 12.866302647951905 and lng - 77.65142705866401 and accuracy - 200.0
+[0mPOST /partner/location/ [32m200 [0m2.747 ms - 4[0m
+2016-07-08 15:13:46 - Sending location update request - lat - 12.866372 and lng - 77.6513358 and accuracy - 29.0
+[0mPOST /partner/location/ [32m200 [0m1.254 ms - 4[0m
+2016-07-08 15:13:50 - Sending location update request - lat - 12.866274168158675 and lng - 77.65124864594993 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m3.613 ms - 4[0m
+2016-07-08 15:13:51 - Sending location update request - lat - 12.866274168158675 and lng - 77.65124864594993 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.272 ms - 4[0m
+2016-07-08 15:13:52 - Sending location update request - lat - 12.866274168158675 and lng - 77.65124864594993 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.257 ms - 4[0m
+2016-07-08 15:13:53 - Sending location update request - lat - 12.866274168158675 and lng - 77.65124864594993 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.216 ms - 4[0m
+2016-07-08 15:14:02 - Sending location update request - lat - 12.866236293495131 and lng - 77.65137935568501 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.186 ms - 4[0m
+2016-07-08 15:14:03 - Sending location update request - lat - 12.866236293495131 and lng - 77.65137935568501 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.340 ms - 4[0m
+2016-07-08 15:14:04 - Sending location update request - lat - 12.866236293495131 and lng - 77.65137935568501 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.589 ms - 4[0m
+2016-07-08 15:14:05 - Sending location update request - lat - 12.866236293495131 and lng - 77.65137935568501 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.200 ms - 4[0m
+2016-07-08 15:14:06 - Sending location update request - lat - 12.8663655 and lng - 77.651371 and accuracy - 33.6
+[0mPOST /partner/location/ [32m200 [0m4.324 ms - 4[0m
+2016-07-08 15:14:14 - Sending location update request - lat - 12.866236293495131 and lng - 77.65137935568501 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.276 ms - 4[0m
+2016-07-08 15:14:15 - Sending location update request - lat - 12.866236293495131 and lng - 77.65137935568501 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m2.090 ms - 4[0m
+2016-07-08 15:14:16 - Sending location update request - lat - 12.866236293495131 and lng - 77.65137935568501 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m2.475 ms - 4[0m
+2016-07-08 15:14:25 - Sending location update request - lat - 12.866236293495131 and lng - 77.65137935568501 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.593 ms - 4[0m
+2016-07-08 15:14:26 - Sending location update request - lat - 12.8663576 and lng - 77.6513395 and accuracy - 27.0
+[0mPOST /partner/location/ [32m200 [0m1.629 ms - 4[0m
+2016-07-08 15:14:26 - Sending location update request - lat - 12.866236293495131 and lng - 77.65137935568501 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m4.651 ms - 4[0m
+2016-07-08 15:14:27 - Sending location update request - lat - 12.866236293495131 and lng - 77.65137935568501 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m2.054 ms - 4[0m
+2016-07-08 15:14:39 - Sending location update request - lat - 12.866105752064977 and lng - 77.65133504329356 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.186 ms - 4[0m
+2016-07-08 15:14:40 - Sending location update request - lat - 12.866105752064977 and lng - 77.65133504329356 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.209 ms - 4[0m
+2016-07-08 15:14:41 - Sending location update request - lat - 12.866105752064977 and lng - 77.65133504329356 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m2.342 ms - 4[0m
+2016-07-08 15:14:46 - Sending location update request - lat - 12.8663982 and lng - 77.651368 and accuracy - 30.0
+[0mPOST /partner/location/ [32m200 [0m1.198 ms - 4[0m
+2016-07-08 15:14:50 - Sending location update request - lat - 12.86620196791905 and lng - 77.6514101326134 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.302 ms - 4[0m
+2016-07-08 15:14:51 - Sending location update request - lat - 12.86620196791905 and lng - 77.6514101326134 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.321 ms - 4[0m
+2016-07-08 15:14:52 - Sending location update request - lat - 12.86620196791905 and lng - 77.6514101326134 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.330 ms - 4[0m
+2016-07-08 15:15:01 - Sending location update request - lat - 12.86620196791905 and lng - 77.6514101326134 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.330 ms - 4[0m
+2016-07-08 15:15:02 - Sending location update request - lat - 12.866230090276945 and lng - 77.65126290210964 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m4.387 ms - 4[0m
+2016-07-08 15:15:03 - Sending location update request - lat - 12.866344678697859 and lng - 77.65118291230566 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m1.337 ms - 4[0m
+2016-07-08 15:15:04 - Sending location update request - lat - 12.866344678697859 and lng - 77.65118291230566 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m2.624 ms - 4[0m
+2016-07-08 15:15:05 - Sending location update request - lat - 12.866344678697859 and lng - 77.65118291230566 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.353 ms - 4[0m
+2016-07-08 15:15:06 - Sending location update request - lat - 12.8663475 and lng - 77.6513285 and accuracy - 37.074
+[0mPOST /partner/location/ [32m200 [0m1.662 ms - 4[0m
+2016-07-08 15:15:06 - Sending location update request - lat - 12.866344678697859 and lng - 77.65118291230566 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.251 ms - 4[0m
+2016-07-08 15:15:15 - Sending location update request - lat - 12.86650240019512 and lng - 77.65125137942306 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m2.410 ms - 4[0m
+2016-07-08 15:15:16 - Sending location update request - lat - 12.866491546770526 and lng - 77.65138248781435 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m5.883 ms - 4[0m
+2016-07-08 15:15:17 - Sending location update request - lat - 12.866491546770526 and lng - 77.65138248781435 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.206 ms - 4[0m
+2016-07-08 15:15:18 - Sending location update request - lat - 12.866491546770526 and lng - 77.65138248781435 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m2.175 ms - 4[0m
+2016-07-08 15:15:19 - Sending location update request - lat - 12.866491546770526 and lng - 77.65138248781435 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.515 ms - 4[0m
+2016-07-08 15:15:25 - Sending location update request - lat - 12.866491546770526 and lng - 77.65138248781435 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.316 ms - 4[0m
+2016-07-08 15:15:26 - Sending location update request - lat - 12.866386224902998 and lng - 77.6512530055898 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.305 ms - 4[0m
+2016-07-08 15:15:27 - Sending location update request - lat - 12.866357 and lng - 77.6513589 and accuracy - 34.514
+[0mPOST /partner/location/ [32m200 [0m1.284 ms - 4[0m
+2016-07-08 15:15:27 - Sending location update request - lat - 12.866386224902998 and lng - 77.6512530055898 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.267 ms - 4[0m
+2016-07-08 15:15:28 - Sending location update request - lat - 12.866386224902998 and lng - 77.6512530055898 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.275 ms - 4[0m
+2016-07-08 15:15:29 - Sending location update request - lat - 12.866386224902998 and lng - 77.6512530055898 and accuracy - 96.0
+[0mPOST /partner/location/ [32m200 [0m1.234 ms - 4[0m
+2016-07-08 15:15:33 - Sending location update request - lat - 12.866386224902998 and lng - 77.6512530055898 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m1.274 ms - 4[0m
+2016-07-08 15:15:34 - Sending location update request - lat - 12.866386224902998 and lng - 77.6512530055898 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.206 ms - 4[0m
+2016-07-08 15:15:35 - Sending location update request - lat - 12.866379335473955 and lng - 77.65140537263392 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.330 ms - 4[0m
+2016-07-08 15:15:36 - Sending location update request - lat - 12.866379335473955 and lng - 77.65140537263392 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m1.693 ms - 4[0m
+2016-07-08 15:15:37 - Sending location update request - lat - 12.866379335473955 and lng - 77.65140537263392 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m1.254 ms - 4[0m
+2016-07-08 15:15:38 - Sending location update request - lat - 12.866379335473955 and lng - 77.65140537263392 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m3.849 ms - 4[0m
+2016-07-08 15:15:39 - Sending location update request - lat - 12.866379335473955 and lng - 77.65140537263392 and accuracy - 192.0
+[0mPOST /partner/location/ [32m200 [0m1.267 ms - 4[0m
+2016-07-08 15:15:41 - Sending location update request - lat - 12.866379335473955 and lng - 77.65140537263392 and accuracy - 128.0
+[0mPOST /partner/location/ [32m200 [0m1.275 ms - 4[0m
+2016-07-08 15:15:42 - Sending location update request - lat - 12.866379335473955 and lng - 77.65140537263392 and accuracy - 64.0
+[0mPOST /partner/location/ [32m200 [0m1.167 ms - 4[0m
+2016-07-08 15:15:43 - Sending location update request - lat - 12.866379335473955 and lng - 77.65140537263392 and accuracy - 48.0
+[0mPOST /partner/location/ [32m200 [0m1.188 ms - 4[0m
+2016-07-08 15:15:46 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m2.499 ms - 4[0m
+2016-07-08 15:15:46 - Sending location update request - lat - 12.8663795 and lng - 77.651355 and accuracy - 35.301
+[0mPOST /partner/location/ [32m200 [0m1.285 ms - 4[0m
+2016-07-08 15:15:47 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.332 ms - 4[0m
+2016-07-08 15:15:50 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.274 ms - 4[0m
+2016-07-08 15:15:51 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.321 ms - 4[0m
+2016-07-08 15:15:52 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.313 ms - 4[0m
+2016-07-08 15:15:53 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.250 ms - 4[0m
+2016-07-08 15:15:54 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 48.0
+[0mPOST /partner/location/ [32m200 [0m1.232 ms - 4[0m
+2016-07-08 15:15:55 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.195 ms - 4[0m
+2016-07-08 15:15:56 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.362 ms - 4[0m
+2016-07-08 15:15:57 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.291 ms - 4[0m
+2016-07-08 15:15:58 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.316 ms - 4[0m
+2016-07-08 15:15:59 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.281 ms - 4[0m
+2016-07-08 15:16:00 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.345 ms - 4[0m
+2016-07-08 15:16:01 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.275 ms - 4[0m
+2016-07-08 15:16:02 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m2.695 ms - 4[0m
+2016-07-08 15:16:03 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.194 ms - 4[0m
+2016-07-08 15:16:04 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.188 ms - 4[0m
+2016-07-08 15:16:05 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.300 ms - 4[0m
+2016-07-08 15:16:06 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.369 ms - 4[0m
+2016-07-08 15:16:06 - Sending location update request - lat - 12.8663868 and lng - 77.6514038 and accuracy - 31.234
+[0mPOST /partner/location/ [32m200 [0m1.406 ms - 4[0m
+2016-07-08 15:16:07 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 48.0
+[0mPOST /partner/location/ [32m200 [0m1.371 ms - 4[0m
+2016-07-08 15:16:08 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 48.0
+[0mPOST /partner/location/ [32m200 [0m1.351 ms - 4[0m
+2016-07-08 15:16:10 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 48.0
+[0mPOST /partner/location/ [32m200 [0m1.209 ms - 4[0m
+2016-07-08 15:16:11 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.580 ms - 4[0m
+2016-07-08 15:16:12 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.301 ms - 4[0m
+2016-07-08 15:16:13 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.364 ms - 4[0m
+2016-07-08 15:16:14 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 48.0
+[0mPOST /partner/location/ [32m200 [0m1.322 ms - 4[0m
+2016-07-08 15:16:15 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.335 ms - 4[0m
+2016-07-08 15:16:16 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.202 ms - 4[0m
+2016-07-08 15:16:17 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.248 ms - 4[0m
+2016-07-08 15:16:18 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.259 ms - 4[0m
+2016-07-08 15:16:19 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.924 ms - 4[0m
+2016-07-08 15:16:20 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.295 ms - 4[0m
+2016-07-08 15:16:21 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.378 ms - 4[0m
+2016-07-08 15:16:22 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.318 ms - 4[0m
+2016-07-08 15:16:23 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.264 ms - 4[0m
+2016-07-08 15:16:24 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.213 ms - 4[0m
+2016-07-08 15:16:25 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.822 ms - 4[0m
+2016-07-08 15:16:26 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.438 ms - 4[0m
+2016-07-08 15:16:26 - Sending location update request - lat - 12.8663861 and lng - 77.6513346 and accuracy - 27.0
+[0mPOST /partner/location/ [32m200 [0m1.382 ms - 4[0m
+2016-07-08 15:16:27 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.834 ms - 4[0m
+2016-07-08 15:16:28 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.209 ms - 4[0m
+2016-07-08 15:16:32 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m6.595 ms - 4[0m
+2016-07-08 15:16:33 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m2.256 ms - 4[0m
+2016-07-08 15:16:34 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m3.798 ms - 4[0m
+2016-07-08 15:16:35 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m8.252 ms - 4[0m
+2016-07-08 15:16:36 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m2.599 ms - 4[0m
+2016-07-08 15:16:37 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m21.236 ms - 4[0m
+2016-07-08 15:16:38 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.695 ms - 4[0m
+2016-07-08 15:16:39 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.247 ms - 4[0m
+2016-07-08 15:16:40 - Sending location update request - lat - 12.86639337304666 and lng - 77.65129933895994 and accuracy - 32.0
+[0mPOST /partner/location/ [32m200 [0m1.263 ms - 4[0m
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+2016-07-08 15:19:32 - Sending location update request - lat - 12.8663692 and lng - 77.6513218 and accuracy - 23.768
+partner is null
+[0mPOST /partner/location/ [32m200 [0m29.728 ms - 4[0m
+2016-07-08 15:19:52 - Sending location update request - lat - 12.866383 and lng - 77.6513365 and accuracy - 25.0
+partner is null
+[0mPOST /partner/location/ [32m200 [0m3.987 ms - 4[0m
+2016-07-08 15:19:57 - Sending location update request - lat - 12.866189721187247 and lng - 77.65117478451826 and accuracy - 192.0
+partner is null
+[0mPOST /partner/location/ [32m200 [0m1.941 ms - 4[0m
+2016-07-08 15:20:00 - Sending location update request - lat - 12.86612232590186 and lng - 77.65113524116931 and accuracy - 192.0
+partner is null
+[0mPOST /partner/location/ [32m200 [0m1.509 ms - 4[0m
+2016-07-08 15:20:01 - Sending location update request - lat - 12.865999447537098 and lng - 77.65110117892047 and accuracy - 192.0
+partner is null
+[0mPOST /partner/location/ [32m200 [0m1.508 ms - 4[0m
+2016-07-08 15:20:02 - Sending location update request - lat - 12.866203673605433 and lng - 77.65118211059783 and accuracy - 192.0
+partner is null
+[0mPOST /partner/location/ [32m200 [0m1.426 ms - 4[0m
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+2016-07-08 15:38:18 - partnerid - undefined. Sending location update request - lat - 12.8663982 and lng - 77.6513494 and accuracy - 45.0
+partner is null
+Creating partner for id undefined
+[0mPOST /partner/location/ [32m200 [0m38.042 ms - 4[0m
+
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+ValidationError: schema validation failed
+    at MongooseError.ValidationError (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/error/validation.js:22:11)
+    at model.Document.invalidate (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/document.js:1411:32)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/document.js:1287:17
+    at validate (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schematype.js:701:7)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schematype.js:738:9
+    at Array.forEach (native)
+    at SchemaString.SchemaType.doValidate (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schematype.js:706:19)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/document.js:1285:9
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+
+npm ERR! Linux 4.4.8-20.46.amzn1.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v4.4.6
+npm ERR! npm  v3.10.2
+npm ERR! code ELIFECYCLE
+npm ERR! rest-server@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the rest-server@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the rest-server package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs rest-server
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls rest-server
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ec2-user/parking/rest/rest-server/npm-debug.log
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+2016-07-08 15:43:18 - partnerid - undefined. Sending location update request - lat - 12.8664118 and lng - 77.6513582 and accuracy - 28.0
+partner is null
+Creating partner for id undefined
+[0mPOST /partner/location/ [32m200 [0m37.834 ms - 4[0m
+
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+ValidationError: schema validation failed
+    at MongooseError.ValidationError (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/error/validation.js:22:11)
+    at model.Document.invalidate (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/document.js:1411:32)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/document.js:1287:17
+    at validate (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schematype.js:701:7)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schematype.js:738:9
+    at Array.forEach (native)
+    at SchemaString.SchemaType.doValidate (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schematype.js:706:19)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/document.js:1285:9
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+
+npm ERR! Linux 4.4.8-20.46.amzn1.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v4.4.6
+npm ERR! npm  v3.10.2
+npm ERR! code ELIFECYCLE
+npm ERR! rest-server@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the rest-server@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the rest-server package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs rest-server
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls rest-server
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ec2-user/parking/rest/rest-server/npm-debug.log
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+2016-07-08 15:44:52 - partnerid - 1. Sending location update request - lat - 12.8663971 and lng - 77.6513298 and accuracy - 24.49
+
+/home/ec2-user/parking/rest/rest-server/routes/location.js:13
+        	if (err) throw err;
+        	         ^
+CastError: Cast to ObjectId failed for value "1" at path "_id"
+    at MongooseError.CastError (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/error/cast.js:19:11)
+    at ObjectId.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/cast.js:182:32)
+    at Query.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2595:10)
+    at Query.findOne (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:1241:10)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2175:21
+    at new Promise.ES6 (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/promise.js:45:3)
+    at Query.exec (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2168:10)
+    at /home/ec2-user/parking/rest/rest-server/routes/location.js:12:10
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:330:12)
+
+npm ERR! Linux 4.4.8-20.46.amzn1.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v4.4.6
+npm ERR! npm  v3.10.2
+npm ERR! code ELIFECYCLE
+npm ERR! rest-server@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the rest-server@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the rest-server package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs rest-server
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls rest-server
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ec2-user/parking/rest/rest-server/npm-debug.log
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+[0mPOST /partner/location/ [33m404 [0m329.809 ms - 1854[0m
+[0mPOST /partner/location/ [33m404 [0m40.871 ms - 1854[0m
+2016-07-08 15:50:34 - partnerid - 1. Sending location update request - lat - 12.8663275 and lng - 77.6512884 and accuracy - 23.0
+
+/home/ec2-user/parking/rest/rest-server/routes/location.js:13
+        	if (err) throw err;
+        	         ^
+CastError: Cast to ObjectId failed for value "1" at path "_id"
+    at MongooseError.CastError (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/error/cast.js:19:11)
+    at ObjectId.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/cast.js:182:32)
+    at Query.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2595:10)
+    at Query.findOne (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:1241:10)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2175:21
+    at new Promise.ES6 (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/promise.js:45:3)
+    at Query.exec (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2168:10)
+    at /home/ec2-user/parking/rest/rest-server/routes/location.js:12:10
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:277:22
+    at param (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:349:14)
+
+npm ERR! Linux 4.4.8-20.46.amzn1.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v4.4.6
+npm ERR! npm  v3.10.2
+npm ERR! code ELIFECYCLE
+npm ERR! rest-server@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the rest-server@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the rest-server package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs rest-server
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls rest-server
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ec2-user/parking/rest/rest-server/npm-debug.log
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+2016-07-08 16:05:38 - partnerid - 1. Sending location update request - lat - 12.8664191 and lng - 77.6513439 and accuracy - 30.0
+
+/home/ec2-user/parking/rest/rest-server/routes/location.js:13
+        	if (err) throw err;
+        	         ^
+CastError: Cast to ObjectId failed for value "1" at path "_id"
+    at MongooseError.CastError (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/error/cast.js:19:11)
+    at ObjectId.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/cast.js:182:32)
+    at Query.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2595:10)
+    at Query.findOne (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:1241:10)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2175:21
+    at new Promise.ES6 (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/promise.js:45:3)
+    at Query.exec (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2168:10)
+    at /home/ec2-user/parking/rest/rest-server/routes/location.js:12:10
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:277:22
+    at param (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:349:14)
+
+npm ERR! Linux 4.4.8-20.46.amzn1.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v4.4.6
+npm ERR! npm  v3.10.2
+npm ERR! code ELIFECYCLE
+npm ERR! rest-server@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the rest-server@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the rest-server package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs rest-server
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls rest-server
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ec2-user/parking/rest/rest-server/npm-debug.log
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+2016-07-08 16:07:40 - partnerid - 1. Sending location update request - lat - undefined and lng - undefined and accuracy - undefined
+
+/home/ec2-user/parking/rest/rest-server/routes/location.js:13
+        	if (err) throw err;
+        	         ^
+CastError: Cast to ObjectId failed for value "1" at path "_id"
+    at MongooseError.CastError (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/error/cast.js:19:11)
+    at ObjectId.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/cast.js:182:32)
+    at Query.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2595:10)
+    at Query.findOne (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:1241:10)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2175:21
+    at new Promise.ES6 (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/promise.js:45:3)
+    at Query.exec (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2168:10)
+    at /home/ec2-user/parking/rest/rest-server/routes/location.js:12:10
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:277:22
+    at param (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:349:14)
+
+npm ERR! Linux 4.4.8-20.46.amzn1.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v4.4.6
+npm ERR! npm  v3.10.2
+npm ERR! code ELIFECYCLE
+npm ERR! rest-server@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the rest-server@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the rest-server package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs rest-server
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls rest-server
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ec2-user/parking/rest/rest-server/npm-debug.log
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+2016-07-08 16:08:10 - partnerid - 1. Sending location update request - lat - undefined and lng - undefined and accuracy - undefined
+
+/home/ec2-user/parking/rest/rest-server/routes/location.js:13
+        	if (err) throw err;
+        	         ^
+CastError: Cast to ObjectId failed for value "1" at path "_id"
+    at MongooseError.CastError (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/error/cast.js:19:11)
+    at ObjectId.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/cast.js:182:32)
+    at Query.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2595:10)
+    at Query.findOne (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:1241:10)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2175:21
+    at new Promise.ES6 (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/promise.js:45:3)
+    at Query.exec (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2168:10)
+    at /home/ec2-user/parking/rest/rest-server/routes/location.js:12:10
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:277:22
+    at param (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:349:14)
+
+npm ERR! Linux 4.4.8-20.46.amzn1.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v4.4.6
+npm ERR! npm  v3.10.2
+npm ERR! code ELIFECYCLE
+npm ERR! rest-server@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the rest-server@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the rest-server package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs rest-server
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls rest-server
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ec2-user/parking/rest/rest-server/npm-debug.log
+
+> rest-server@0.0.0 start /home/ec2-user/parking/rest/rest-server
+> node ./bin/www
+
+2016-07-08 16:24:54 - partnerid - 1. Sending location update request - lat - undefined and lng - undefined and accuracy - undefined
+
+/home/ec2-user/parking/rest/rest-server/routes/location.js:13
+        	if (err) throw err;
+        	         ^
+CastError: Cast to ObjectId failed for value "1" at path "_id"
+    at MongooseError.CastError (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/error/cast.js:19:11)
+    at ObjectId.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/cast.js:182:32)
+    at Query.cast (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2595:10)
+    at Query.findOne (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:1241:10)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2175:21
+    at new Promise.ES6 (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/promise.js:45:3)
+    at Query.exec (/home/ec2-user/parking/rest/rest-server/node_modules/mongoose/lib/query.js:2168:10)
+    at /home/ec2-user/parking/rest/rest-server/routes/location.js:12:10
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:277:22
+    at param (/home/ec2-user/parking/rest/rest-server/node_modules/express/lib/router/index.js:349:14)
+
+npm ERR! Linux 4.4.8-20.46.amzn1.x86_64
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v4.4.6
+npm ERR! npm  v3.10.2
+npm ERR! code ELIFECYCLE
+npm ERR! rest-server@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the rest-server@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the rest-server package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs rest-server
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls rest-server
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ec2-user/parking/rest/rest-server/npm-debug.log
